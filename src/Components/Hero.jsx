@@ -17,7 +17,7 @@ const Hero=()=> {
       <p className='text-Slate font-calibri text-[1.3rem] mb-4 '>
       i’m a software engineer specializing in building (and occasionally<br/>
        designing) exceptional digital experiences. Currently, I’m focused on <br/>
-       building accessible, human-centered products
+       building accessible, human-centered products.
       </p>
 
       <Button size={'lg'}>
