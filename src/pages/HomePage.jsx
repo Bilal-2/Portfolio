@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../Components/Hero'
 import About from '../Components/About'
+import Work from '../Components/work'
 
 export default function HomePage() {
     return (
@@ -27,6 +28,7 @@ export default function HomePage() {
                 <div className=" col-start-3 col-end-11 ">
                     <Hero />
                     <About />
+                    <Work/>
                 </div>
 
 

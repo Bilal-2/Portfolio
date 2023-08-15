@@ -4,6 +4,9 @@ export default {
   mode: "jit",
   theme: {
     extend: {
+      width: {
+        fit: 'fit-content',
+      },
       boxShadow: {
         'btn': '4px 4px 0px 0px ',
       },
