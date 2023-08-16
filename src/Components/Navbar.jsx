@@ -22,7 +22,7 @@ export default function Navbar() {
     //   );
     return (
         <nav className='flex items-center  bg-transparent top-0 sticky px-8 w-full opacity-100 pt-4 '>
-            <div className=' w-full text-[2rem] text-Green items-center'>
+            <div className=' w-full text-[2rem] text-Green items-center bg-transparent'>
                 B
             </div>
            
@@ -36,3 +36,5 @@ export default function Navbar() {
         </nav>
     )
 }
+
+

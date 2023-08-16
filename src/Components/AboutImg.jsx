@@ -7,7 +7,7 @@ export default function AboutImg() {
     
   return (
     <div>
-      <div className={`relative items-center z-20  bg-Navy  aspect-square object-contain h-[20rem]  rounded `}
+      <div className={`relative items-center z-20  bg-Navy  aspect-square object-contain h-[13rem] sm:h-[13rem] md:h-[20rem] lg:h-[20rem]  rounded `}
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
         >
