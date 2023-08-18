@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../Components/Hero'
 import About from '../Components/About'
-import Work from '../Components/work'
+import Works from '../Components/Works'
 
 export default function HomePage() {
     return (
@@ -28,8 +28,8 @@ export default function HomePage() {
                 <div className=" col-start-2   col-end-12 ">
                     <Hero />
                     <About />
-                    <Work/>
-                   
+
+                    <Works/>
                 </div>
 
 
