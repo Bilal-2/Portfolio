@@ -33,6 +33,8 @@ export default {
         LightestSlate: "#ccd6f6",
         White: "#e6f1ff",
         Green: "#64ffda",
+        'scrollbar-thumb': '#6b7280', // Color of the scrollbar thumb
+        'scrollbar-track': '#f3f4f6', // Color of the scrollbar track
         
 
       },
@@ -43,7 +45,9 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [    
+    require('tailwind-scrollbar'),
+],
 }
 
 
