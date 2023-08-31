@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../Components/Hero'
 import About from '../Components/About'
 import Works from '../Components/Works'
+import Projects from '../Components/Projects'
 
 export default function HomePage() {
     return (
@@ -25,11 +26,12 @@ export default function HomePage() {
                 </div>
 
 
-                <div className=" col-start-2   col-end-12 ">
+                <div className=" col-start-2   col-end-12 lg:px-[8rem] md:px-[4rem] ">
                     <Hero />
                     <About />
 
                     <Works/>
+                    <Projects/>
                 </div>
 
 

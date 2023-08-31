@@ -5,7 +5,7 @@ const About = () => {
   const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
 
   return (
-    <div className='h-auto sm:h-screen md:h-screen lg:h-screen px-[2rem] '>
+    <div className='h-auto sm:h-screen md:h-screen lg:h-screen px-[2rem]  lg:pl-[3rem] md:pl-[2rem]  sm:pl-[1rem]'>
 
       <div className="flex items-center space-x-4">
         <h1 className="text-[1rem] sm:text-[1.3rem] md:text-[1.3rem] lg:text-[1.3rem] text-Green font-sf-mono">
@@ -25,7 +25,7 @@ const About = () => {
 
 
           </div>
-          <p className='text-[0.8rem] md:text-[1.3rem] sm:text-[1rem] lg:text-[1.3rem] text-Slate font-calibri mt-5'>
+          <p className='text-[0.8rem] md:text-[1.3rem] sm:text-[1rem] lg:text-[20px] text-Slate font-calibri mt-5'>
             Hello! My name is Brittany and I enjoy creating things that live on
             the internet. My interest in web development started back in 2012
             when I decided to try editing custom Tumblr themes — turns out
@@ -48,8 +48,8 @@ const About = () => {
 
           <ul className="grid grid-cols-2 gap-x-10 gap-y-4 p-0 mt-4 overflow-hidden list-none">
             {skills.map((skill, i) => (
-              <li key={i} className="relative sm:mb-4 md:mb-4 lg:mb-4 pl-5 font-mono text-[0.8rem] md:text-[1.3rem] sm:text-[1rem] lg:text-[1.3rem] text-Slate">
-                <span className="absolute left-0 text-Green text-[0.8rem] md:text-[1.3rem] sm:text-[1rem] lg:text-[1.3rem]" style={{ lineHeight: '12px' }}>
+              <li key={i} className="relative sm:mb-4 md:mb-4 lg:mb-4 pl-5 font-mono text-[0.8rem] md:text-[1rem] sm:text-[0.8rem] lg:text-[1rem] text-Slate">
+                <span className="absolute left-0 text-Green text-[0.8rem] md:text-[1.3rem] sm:text-[1rem] lg:text-[1.3rem] lg:pt-2 md:pt-2 pt-1" style={{ lineHeight: '12px' }}>
                   ▹
                 </span>
                 {skill}
